@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import img from '../../assets/01.png'
+import img from '../../assets/banner (2).png'
 
 
 const Banner = () => {
@@ -7,7 +7,7 @@ const Banner = () => {
         <div>
             <div className="hero lg:h-[80vh]" style={{ backgroundImage: 'url(https://i.postimg.cc/RFtX2PGJ/04.jpg)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
-                <div className="hero-content text-center text-neutral-content">
+                <div className="hero-content text-center text-neutral-content grid grid-cols-1 lg:grid-cols-2">
                     <div className="max-w-lg">
                         <h1 className="mb-5 text-5xl font-bold">Your Best Medical Help Center</h1>
                         <p className="mb-5 text-justify">Hospitals are essential healthcare institutions designed to provide medical care, treatment, and support to individuals suffering from illnesses, injuries, or requiring specialized care. These institutions vary in size and specialization, ranging from small community hospitals to large, comprehensive medical centers.</p>
