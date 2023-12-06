@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner/Banner";
-import Card from "../../components/Card/Card";
+// import Card from "../../components/Card/Card";
+import Contact from "../../components/Contact/Contact";
 import Services from "../../components/Services/Services";
 
 
@@ -8,7 +9,8 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Services></Services>
-            <Card></Card>
+            {/* <Card></Card> */}
+            <Contact></Contact>
         </div>
     );
 };
