@@ -5,7 +5,7 @@ import google from '../../assets/google.png';
 const Login = () => {
     return (
         <div>
-            <div className="bg-gray-100 flex items-center justify-center py-16">
+            <div className="bg-[#07332F] flex items-center justify-center py-16">
                 <div className="bg-white w-96 p-8 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Login</h2>
                     <form>
@@ -24,6 +24,7 @@ const Login = () => {
                             <img className='w-16 h-16 rounded-full cursor-pointer' src={google} alt="" />
                         </div>
                     </form>
+                    <p className="text-gray-600 text-sm text-center mb-2">Forget Password</p>
                     <p className="text-gray-600 text-sm text-center">Don't have an account? <Link to="/register" className="text-[#F7A582]">Register</Link></p>
                 </div>
             </div>
