@@ -12,7 +12,7 @@ const Services = () => {
                 <p className='text-justify mb-5'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 <div role="tablist" className="tabs tabs-bordered mb-5">
                     <a role="tab" className="tab font-medium">Cavity Protection</a>
-                    <a role="tab" className="tab tab-active font-medium">Cosmetic Dentisty</a>
+                    <a role="tab" className="tab tab-active font-medium">Cosmetic Dentist</a>
                     <a role="tab" className="tab font-medium">Oral Surgery</a>
                 </div>
                 <img className='mb-5' src={img2} alt="" />

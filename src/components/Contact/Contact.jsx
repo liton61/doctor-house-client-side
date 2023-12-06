@@ -47,7 +47,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="p-2">
-                        <button className="btn w-full bg-[#F7A582] border-none">Booked</button>
+                        <button className="btn w-full bg-[#F7A582] border-none text-white">Booked</button>
                     </div>
                 </form>
             </div>
