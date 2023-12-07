@@ -1,7 +1,19 @@
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png'
+import { useContext } from 'react';
+import { AuthContext } from '../authentication/Provider/AuthProvider';
 
 const Navbar = () => {
+    const { user, logOut } = useContext(AuthContext);
+    const handleSingOut = () => {
+        logOut()
+            .then(res => {
+                console.log(res.user);
+            })
+            .catch(error => {
+                console.log(error);
+            })
+    }
     return (
         <div>
             <div className="navbar bg-[#07332F] text-white p-5">
@@ -33,10 +45,20 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to="/login">
-                        <button className="bg-[#F7A582] text-white border-none py-3 px-4 rounded font-medium">Login</button>
-                    </Link>
-                    {/* <i className="fa-solid fa-right-to-bracket"></i> */}
+                    {
+                        user ?
+                            <div className='flex'>
+                                <img className='w-12 mr-2 rounded-full h-12' src={user?.photoURL} alt="" />
+                                {/* <h2 className="flex items-center text-sm font-medium mr-2">{user?.displayName}</h2> */}
+                                <Link onClick={handleSingOut} to="/login">
+                                    <button className="bg-[#F7A582] text-white border-none py-3 px-4 rounded font-medium">Sign Out</button>
+                                </Link>
+                            </div>
+                            :
+                            <Link to="/login">
+                                <button className="bg-[#F7A582] text-white border-none py-3 px-4 rounded font-medium">Login</button>
+                            </Link>
+                    }
                 </div>
             </div>
         </div>

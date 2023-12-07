@@ -1,12 +1,46 @@
+import { useContext } from "react";
+import { AuthContext } from "../../authentication/Provider/AuthProvider";
+import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
 
 
 const Register = () => {
+
+    const { createUser, profile } = useContext(AuthContext)
+    const navigate = useNavigate();
+
+    const handleRegister = e => {
+        e.preventDefault();
+        const form = e.target;
+        const name = form.name.value;
+        const email = form.email.value;
+        const password = form.password.value;
+        const photo = form.photo.value;
+
+        const formInfo = { name, email, password, photo };
+        console.log(formInfo);
+
+        createUser(email, password)
+            .then(res => {
+                console.log(res.user)
+                profile(name, photo);
+                Swal.fire({
+                    title: "Good job !",
+                    text: "You you have successfully register !",
+                    icon: "success"
+                });
+                navigate("/");
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }
     return (
         <div>
             <div className="bg-[#07332F] flex items-center justify-center py-16">
                 <div className="bg-white w-96 p-8 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-2 text-center">Register</h2>
-                    <form>
+                    <form onSubmit={handleRegister}>
                         <div className="mb-2">
                             <label className="block text-gray-600 text-sm font-medium mb-2">Name</label>
                             <input type="text" id="name" name="name" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none" placeholder="Enter your name" required />
