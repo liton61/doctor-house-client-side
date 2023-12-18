@@ -19,6 +19,15 @@
     },
     {
         "img": "https://i.postimg.cc/G2cvzWg5/doctor.jpg",
+        "name": "Dr. John Johnson",
+        "designation": "Pediatrician",
+        "location": "Community Clinic, San Francisco",
+        "available_time": "10:00 AM - 6:00 PM",
+        "fee": "$150",
+        "rating": 4.5
+    },
+    {
+        "img": "https://i.postimg.cc/G2cvzWg5/doctor.jpg",
         "name": "Dr. Sarah Lee",
         "designation": "Dermatologist",
         "location": "Skin Care Center, Los Angeles",

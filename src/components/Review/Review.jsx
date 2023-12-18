@@ -16,7 +16,7 @@ const Review = () => {
     }, [])
     return (
         <div className="lg:px-0 md:px-8 px-5">
-            <section className="my-20 lg:w-3/4 mx-auto bg-[#F7A582] text-white pt-10 rounded">
+            <section className="my-20 lg:w-3/4 mx-auto bg-[#07332F] text-white pt-10 rounded">
                 <div className='w-64 mx-auto'>
                     <p className='text-white text-center mb-2'>---What Our Clients Say---</p>
                     <h3 className='text-xl font-semibold border-y-4 text-center py-3'>TESTIMONIALS</h3>
