@@ -2,7 +2,8 @@
 
 const Contact = () => {
     return (
-        <div className="bg-[#07332F] lg:flex justify-between lg:w-3/4 mx-auto px-10 mt-20 rounded">
+        <div className="lg:px-0 md:px-5 px-5">
+            <div className="bg-[#07332F] lg:flex justify-between lg:w-3/4 mx-auto px-10 mt-20 rounded">
             <div className="lg:w-1/2 text-white pt-10">
                 <div>
                     <h1 className="text-2xl font-semibold mb-5">Contact With Us</h1>
@@ -51,6 +52,7 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
+        </div>
         </div>
     );
 };
