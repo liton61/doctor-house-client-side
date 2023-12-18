@@ -15,31 +15,33 @@ const Review = () => {
             .then(data => setReviews(data))
     }, [])
     return (
-        <section className="my-20 lg:w-3/4 mx-auto lg:px-0 md:px-5 px-5 bg-[#F7A582] text-white pt-10 rounded">
-            <div className='w-64 mx-auto'>
-                <p className='text-white text-center mb-2'>---What Our Clients Say---</p>
-                <h3 className='text-xl font-semibold border-y-4 text-center py-3'>TESTIMONIALS</h3>
-            </div>
+        <div className="lg:px-0 md:px-8 px-5">
+            <section className="my-20 lg:w-3/4 mx-auto bg-[#F7A582] text-white pt-10 rounded">
+                <div className='w-64 mx-auto'>
+                    <p className='text-white text-center mb-2'>---What Our Clients Say---</p>
+                    <h3 className='text-xl font-semibold border-y-4 text-center py-3'>TESTIMONIALS</h3>
+                </div>
 
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 
-                {
-                    reviews.map(review => <SwiperSlide
-                        key={review._id}
-                    >
-                        <div className="flex flex-col items-center mx-24 my-16">
-                            <Rating
-                                style={{ maxWidth: 180 }}
-                                value={review.rating}
-                                readOnly
-                            />
-                            <p className="py-8">{review.details}</p>
-                            <h3 className="text-2xl">{review.name}</h3>
-                        </div>
-                    </SwiperSlide>)
-                }
-            </Swiper>
-        </section>
+                    {
+                        reviews.map(review => <SwiperSlide
+                            key={review._id}
+                        >
+                            <div className="flex flex-col items-center mx-24 my-16">
+                                <Rating
+                                    style={{ maxWidth: 180 }}
+                                    value={review.rating}
+                                    readOnly
+                                />
+                                <p className="py-8 text-justify">{review.details}</p>
+                                <h3 className="text-2xl">{review.name}</h3>
+                            </div>
+                        </SwiperSlide>)
+                    }
+                </Swiper>
+            </section>
+        </div>
     );
 };
 

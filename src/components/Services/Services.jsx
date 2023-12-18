@@ -3,7 +3,7 @@ import img2 from '../../assets/services (2).png';
 
 const Services = () => {
     return (
-        <div className='lg:flex md:flex lg:w-3/4 w-full mx-auto mt-20 lg:px-0 md:px-5 px-0'>
+        <div className='lg:flex md:flex lg:w-3/4 w-full mx-auto mt-20 lg:px-0 md:px-8 px-0'>
             <div className='lg:w-1/2 md:w-1/2 lg:mr-2 md:mr-2 lg:px-0 md:px-0 px-5'>
                 <img className='lg:h-[123vh] h-full w-full' src={img1} alt="" />
             </div>
