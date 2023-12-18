@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Teeth Orthodontics",
+        "logo": "https://i.postimg.cc/25XvtjHJ/bacteria.png",
+        "schedule": "9:00 AM - 5:00 PM"
+    },
+    {
+        "name": "Cosmetic Dentist",
+        "logo": "https://i.postimg.cc/1zzwMVKw/decayed.png",
+        "schedule": "10:00 AM - 6:00 PM"
+    },
+    {
+        "name": "Teeth Cleaning",
+        "logo": "https://i.postimg.cc/tJFx73XQ/dental.png",
+        "schedule": "8:00 AM - 4:00 PM"
+    },
+    {
+        "name": "Cavity Protection",
+        "logo": "https://i.postimg.cc/MKbBSmP1/dental-checkup.png",
+        "schedule": "9:30 AM - 3:30 PM"
+    },
+    {
+        "name": "Pediatric Dental",
+        "logo": "https://i.postimg.cc/W4tq0L27/tooth-whitening.png",
+        "schedule": "10:00 AM - 6:00 PM"
+    },
+    {
+        "name": "Oral Surgery",
+        "logo": "https://i.postimg.cc/sDRWqNcV/Group-2.png",
+        "schedule": "8:30 AM - 5:30 PM"
+    }
+]

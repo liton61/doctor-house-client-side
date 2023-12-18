@@ -16,8 +16,8 @@ const Services = () => {
                     <a role="tab" className="tab font-medium">Oral</a>
                 </div>
                 <img className='mb-5' src={img2} alt="" />
-                <h3 className='text-xl font-semibold mb-5'>Electro  Gastrology Therapy</h3>
-                <p className='text-justify mb-5'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error </p>
+                <h3 className='text-xl font-semibold mb-3'>Electro  Gastrology Therapy</h3>
+                <p className='text-justify mb-3'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error </p>
                 <button className="bg-[#F7A582] text-white border-none py-3 px-4 rounded font-medium">Learn More <i className="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
