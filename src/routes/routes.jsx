@@ -5,7 +5,9 @@ import Root from "../Root/Root";
 import Register from "../pages/Register/Register";
 import Login from "../pages/Login/Login";
 import Appointment from "../pages/Appointment/Appointment";
-import Doctors from "../pages/Doctors/Doctors";
+// import Doctors from "../pages/Doctors/Doctors";
+import ExpertDoctorsDetails from "../components/ExpertDoctors/ExpertDoctorsDetails";
+import AvailableSlots from "../pages/Appointment/AvailableSlots";
 
 
 const router = createBrowserRouter([
@@ -18,13 +20,21 @@ const router = createBrowserRouter([
                 path: "/",
                 element: <Home></Home>
             },
-            {
-                path: "/doctors",
-                element: <Doctors></Doctors>
-            },
+            // {
+            //     path: "/doctors",
+            //     element: <Doctors></Doctors>
+            // },
             {
                 path: "/appointment",
                 element: <Appointment></Appointment>
+            },
+            {
+                path: "/availableSlot/:id",
+                element: <AvailableSlots></AvailableSlots>
+            },
+            {
+                path: "/expertDoctorsDetails/:id",
+                element: <ExpertDoctorsDetails></ExpertDoctorsDetails>
             }
         ],
     },

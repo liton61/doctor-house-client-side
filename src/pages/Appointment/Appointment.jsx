@@ -1,7 +1,7 @@
 import About from "../../components/About/About";
 import Cover from "../../components/Cover/Cover";
-import AvailableServices from "./AvailableServices";
-import AvailableSlots from "./AvailableSlots";
+// import AvailableServices from "./AvailableServices";
+// import AvailableSlots from "./AvailableSlots";
 
 
 const Appointment = () => {
@@ -9,8 +9,8 @@ const Appointment = () => {
         <div>
             <Cover></Cover>
             <About></About>
-            <AvailableServices></AvailableServices>
-            <AvailableSlots></AvailableSlots>
+            {/* <AvailableServices></AvailableServices> */}
+            {/* <AvailableSlots></AvailableSlots> */}
         </div>
     );
 };

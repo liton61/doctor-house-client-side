@@ -1,38 +1,46 @@
 [
     {
+        "_id": "1",
         "img": "https://i.postimg.cc/G2cvzWg5/doctor.jpg",
         "name": "Dr. Emily Smith",
         "designation": "Cardiologist",
         "location": "City Hospital, New York",
         "available_time": "9:00 AM - 5:00 PM",
         "fee": "$200",
-        "rating": 4.8
+        "rating": 4.8,
+        "description": "Dr. Emily Smith specializes in diagnosing and treating heart conditions. With a wealth of experience, she provides comprehensive cardiac care and is dedicated to improving heart health for her patients."
     },
     {
+        "_id": "2",
         "img": "https://i.postimg.cc/G2cvzWg5/doctor.jpg",
         "name": "Dr. John Johnson",
         "designation": "Pediatrician",
         "location": "Community Clinic, San Francisco",
         "available_time": "10:00 AM - 6:00 PM",
         "fee": "$150",
-        "rating": 4.5
+        "rating": 4.5,
+        "description": "Dr. John Johnson is a caring pediatrician focused on the well-being of children and adolescents. He offers attentive care, ensuring the best possible health outcomes for young patients."
     },
     {
-        "img": "https://i.postimg.cc/G2cvzWg5/doctor.jpg",
-        "name": "Dr. John Johnson",
-        "designation": "Pediatrician",
-        "location": "Community Clinic, San Francisco",
-        "available_time": "10:00 AM - 6:00 PM",
-        "fee": "$150",
-        "rating": 4.5
-    },
-    {
+        "_id": "3",
         "img": "https://i.postimg.cc/G2cvzWg5/doctor.jpg",
         "name": "Dr. Sarah Lee",
         "designation": "Dermatologist",
         "location": "Skin Care Center, Los Angeles",
         "available_time": "8:30 AM - 4:30 PM",
         "fee": "$180",
-        "rating": 4.9
+        "rating": 4.9,
+        "description": "Dr. Sarah Lee is a skilled dermatologist specializing in skin health. She provides expert care for various skin conditions and aims to enhance the skin health of her patients with personalized treatments and advice."
+    },
+    {
+        "_id": "3",
+        "img": "https://i.postimg.cc/G2cvzWg5/doctor.jpg",
+        "name": "Dr. Sarah Lee",
+        "designation": "Dermatologist",
+        "location": "Skin Care Center, Los Angeles",
+        "available_time": "8:30 AM - 4:30 PM",
+        "fee": "$180",
+        "rating": 4.9,
+        "description": "Dr. Sarah Lee is a skilled dermatologist specializing in skin health. She provides expert care for various skin conditions and aims to enhance the skin health of her patients with personalized treatments and advice."
     }
 ]

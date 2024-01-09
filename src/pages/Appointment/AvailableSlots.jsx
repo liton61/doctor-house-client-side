@@ -1,16 +1,16 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 
 const AvailableSlots = () => {
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch('availableSlots.json')
-            .then(res => res.json())
-            .then(data => setServices(data))
-    }, [])
+    // const [services, setServices] = useState([]);
+    // useEffect(() => {
+    //     fetch('availableSlots.json')
+    //         .then(res => res.json())
+    //         .then(data => setServices(data))
+    // }, [])
     return (
         <div>
-            <section className="py-16 px-5 lg:px-0 md:px-8">
+            {/* <section className="py-16 px-5 lg:px-0 md:px-8">
                 <div className="max-w-5xl mx-auto">
                     <div className="mb-10">
                         <h2 className="text-center text-[#F7A582]">Available Services on April 30, 2022</h2>
@@ -36,7 +36,7 @@ const AvailableSlots = () => {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 };
