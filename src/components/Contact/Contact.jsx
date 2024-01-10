@@ -16,7 +16,7 @@ const Contact = () => {
                         </div>
                         <div className="lg:flex">
                             <div className="p-2 w-full">
-                                <input type="text" placeholder="Mobile Number" className="input w-full" />
+                                <input type="text" placeholder="Your Number" className="input w-full" />
                             </div>
                             <div className="p-2 w-full">
                                 <input type="text" placeholder="Doctor Name" className="input w-full" />
